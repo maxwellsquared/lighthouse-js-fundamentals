@@ -18,3 +18,18 @@ let facebookProfile = {
   }
   
 }
+
+
+// This is an array of objects. 
+var donuts = [
+    { type: "Jelly", cost: 1.22 },
+    { type: "Chocolate", cost: 2.45 },
+    { type: "Cider", cost: 1.59 },
+    { type: "Boston Cream", cost: 5.99 }
+];
+
+//this goes through each donut in the array
+donuts.forEach(function(donut) {
+    console.log(donut.type + " donuts cost $" + donut.cost + " each");
+}
+)
